@@ -5,15 +5,14 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC-pXHyIWH_KZa9dW6ehhbRO65Dz3O12HA",
-  authDomain: "newsletter-55070.firebaseapp.com",
-  projectId: "newsletter-55070",
-  storageBucket: "newsletter-55070.appspot.com",
-  messagingSenderId: "88670943525",
-  appId: "1:88670943525:web:1d27de4a995e8cb59d82cc",
-  measurementId: "G-SP6G4EGNW9"
+  apiKey: "AIzaSyC6C-pus3DffsEPqH7LdruVAheQ32C2vJ8",
+  authDomain: "newsletter-cfb67.firebaseapp.com",
+  projectId: "newsletter-cfb67",
+  storageBucket: "newsletter-cfb67.appspot.com",
+  messagingSenderId: "71654651744",
+  appId: "1:71654651744:web:6dd2f439743b6eae69d005",
+  measurementId: "G-9KDGXLLYY2"
 };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth();
